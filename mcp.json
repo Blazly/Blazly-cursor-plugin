@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "blazly": {
+      "url": "https://app.blazly.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${BLAZLY_API_KEY}"
+      }
+    }
+  }
+}

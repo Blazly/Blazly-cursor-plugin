@@ -1,0 +1,26 @@
+{
+  "name": "blazly",
+  "displayName": "Blazly",
+  "version": "1.0.0",
+  "description": "SEO, GEO and AEO agents in Cursor: site audits, keyword research, AI visibility, blog writing and publishing to WordPress or Webflow.",
+  "author": {
+    "name": "Blazly",
+    "email": "jerry@blazly.ai"
+  },
+  "homepage": "https://www.blazly.ai",
+  "repository": "https://github.com/Blazly/Blazly-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["seo", "geo", "aeo", "ai-visibility", "content", "blog", "marketing", "mcp"],
+  "logo": "assets/logo.png",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BLAZLY_API_KEY": {
+        "type": "string",
+        "title": "Blazly API key",
+        "description": "Create one in Blazly: open your project, then Connect AI tools, then Create key. Starts with blz_."
+      }
+    },
+    "required": ["BLAZLY_API_KEY"]
+  }
+}
